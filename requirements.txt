@@ -1,0 +1,16 @@
+# Core dependencies for SQL Query Writer Agent
+# Add your additional packages below with pinned versions
+
+# Database
+duckdb==1.1.3
+sqlalchemy==2.0.36
+
+# Data loading
+kagglehub==0.3.4
+
+# Ollama (required - for LLM access)
+ollama==0.4.7
+
+# Add your agent dependencies below (examples commented out)
+# langchain==0.3.7
+# langchain-ollama==0.2.3

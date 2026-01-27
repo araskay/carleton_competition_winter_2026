@@ -1,0 +1,55 @@
+# Environment and secrets
+.env
+*.env.local
+
+# Generated PDF (keep separate from repo)
+COMPETITION_GUIDE.pdf
+
+# Database files (generated)
+*.db
+*.duckdb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Kaggle credentials (should be in ~/.kaggle/)
+kaggle.json
+
+# OS files
+.DS_Store
+Thumbs.db
